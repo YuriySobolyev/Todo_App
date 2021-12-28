@@ -1,0 +1,45 @@
+.header-wrapper {
+  background: #b2ebf2;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 100%;
+  display: flex;
+  column-gap: 1em;
+  justify-content: space-between;
+  padding: 0.5em;
+  transition: all 0.5s ease-in-out;
+
+  * {
+    padding: 0.5em;
+    height: 40px;
+  }
+}
+.input {
+  width: 100%;
+  font-size: 1em;
+  border: 1px solid #c8d0dd;
+  border-radius: 0.25em;
+
+  &:focus-visible {
+    border: 1px solid #c8d0dd;
+    outline: 0;
+  }
+}
+.add-todo-btn {
+  width: 115px;
+  min-width: 115px;
+  font-size: 1em;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #c8d0dd;
+  border-radius: 0.25em;
+
+  &:hover {
+    background: #e8f7f9;
+    border: 1px solid #67959b;
+    cursor: pointer;
+  }
+}
